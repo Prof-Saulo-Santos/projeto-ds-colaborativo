@@ -16,3 +16,5 @@ y = pd.read_csv('data/processed/target.csv').squeeze()
 resultados = avaliar_modelos(X, y)
 eof
 
+joao esqueceu de dar git pull origin main
+

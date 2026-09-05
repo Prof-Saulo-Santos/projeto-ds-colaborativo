@@ -22,4 +22,6 @@ def executar_eda(caminho_csv):
     print(f"Shape após limpeza: {df.shape}")
     print(df.describe())
 
+    print(df) # print mostrando quantas linhas foram processadas.
+
     return df
